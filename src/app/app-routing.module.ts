@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {DialogueBoxComponent} from "./dialogue-box/dialogue-box.component";
+import { DialogueBoxComponent } from './dialogue-box/dialogue-box.component';
 
-let routes: Routes;
-routes = [
-  {path: 'dialogue', component: DialogueBoxComponent}
+const routes: Routes = [
+  {
+    path        : '',
+    component: DialogueBoxComponent
+},
+
 ];
 
 @NgModule({
