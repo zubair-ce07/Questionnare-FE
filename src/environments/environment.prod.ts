@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://arbisoftdev.herokuapp.com:5000/'
+  baseUrl: 'https://arbisoftflaskapp.herokuapp.com/'
 
 };
